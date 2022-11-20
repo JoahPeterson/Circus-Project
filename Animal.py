@@ -10,6 +10,7 @@ class animal:
 
     def __str__(self):
         return self.sName + "[Age: " + str(self.nAge) + ", Type: " + self.sType + "]"
+        ## Adding comment to test
 
 
     # Check values of anmal objects to see if they match. Return true when animals share exact values. 
